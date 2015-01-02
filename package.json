@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/gr2m/has-localstorage/issues"
   },
-  "homepage": "https://gr2m.github.com/has-localstorage",
+  "homepage": "http://gr2m.github.com/has-localstorage",
   "devDependencies": {
     "chai": "^1.10.0",
     "doxx": "^1.2.1",
