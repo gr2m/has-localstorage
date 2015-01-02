@@ -83,10 +83,13 @@
           <section id="Main"><h1>has-localstorage</h1>
 <blockquote>
 <p>returns true if localStorage is supported <em>and</em> persistent</p></blockquote>
-<p>returns <code>true</code> or <code>false</code> depending on whether localStorage is supported or not.<br />Beware that some browsers like Safari do not support localStorage in private mode.</p><h2>Installation</h2>
-<p>Download <a href="#">has-localstorage.js</a> or <a href="#">has-localstorage.min.js</a>.</p><p>Install via Bower</p><pre><code>bower install -S has-localstorage
-</code></pre><p>Install via npm</p><pre><code>npm install -S has-localstorage
-</code></pre><h2>Usage</h2>
+<p><a href="https://travis-ci.org/gr2m/has-localstorage/"><img src="https://travis-ci.org/gr2m/has-localstorage.png?branch=master" alt="Build Status"></a></p><p>returns <code>true</code> or <code>false</code> depending on whether localStorage is supported or not.<br />Beware that some browsers like Safari do not support localStorage in private mode.</p><h2>Downlaod or Installation</h2>
+<ul>
+<li>Download <a href="https://raw.githubusercontent.com/gr2m/initials.js/master/lib/has-localstorage.js">has-localstorage.js</a></li>
+<li>or: install via Bower: <code>bower install --save has-localstorage</code></li>
+<li>or: install via npm: <code>npm install --save has-localstorage</code></li>
+</ul>
+<h2>Usage</h2>
 <pre><code class="lang-js">if (hasLocalStorage()) {
   // localStorage can be used, all data gets persisted
 } else {

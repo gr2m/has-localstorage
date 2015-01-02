@@ -2,9 +2,10 @@
 
 > returns true if localStorage is supported _and_ persistent
 
+[![Build Status](https://travis-ci.org/gr2m/has-localstorage.png?branch=master)](https://travis-ci.org/gr2m/has-localstorage/)
+
 returns `true` or `false` depending on whether localStorage is supported or not.
 Beware that some browsers like Safari do not support localStorage in private mode.
-
 
 ## Downlaod or Installation
 
