@@ -10,7 +10,7 @@ Beware that some browsers like Safari do not support localStorage in private mod
 
 ## Downlaod or Installation
 
-- Download [has-localstorage.js](https://raw.githubusercontent.com/gr2m/initials.js/master/lib/has-localstorage.js)
+- Download [has-localstorage.js](https://raw.githubusercontent.com/gr2m/has-localstorage/master/lib/has-localstorage.js)
 - or: install via Bower: `bower install --save has-localstorage`
 - or: install via npm: `npm install --save has-localstorage`
 
