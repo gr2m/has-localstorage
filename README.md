@@ -7,6 +7,7 @@
 returns `true` or `false` depending on whether localStorage is supported or not.
 Beware that some browsers like Safari do not support localStorage in private mode.
 
+
 ## Downlaod or Installation
 
 - Download [has-localstorage.js](https://raw.githubusercontent.com/gr2m/initials.js/master/lib/has-localstorage.js)
@@ -23,6 +24,18 @@ if (hasLocalStorage()) {
   // localStorage is not available, or changes are not persisted
 }
 ```
+
+
+## Help wanted!
+
+The current test setup is very simple: it only tests in latest Firefox
+using Selenium and [Sauce Labs](http://saucelabs.com/). Unfortunately,
+Sauce Labs has no support to start browsers in private mode, which would
+be necessary, as `localStorage` behaves different if in private mode
+in Safari, probably in other browsers as well.
+
+If anynone has an idea to for that, ping me at
+https://github.com/gr2m/has-localstorage/issues/1
 
 
 # Acknowledgement
