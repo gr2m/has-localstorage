@@ -8,6 +8,6 @@ before_script:
 - sudo sed -i 's/^127\.0\.0\.1.*$/127.0.0.1 localhost/' /etc/hosts
 env:
   global:
-  - secure: 1Fnwe5KLUOCdL+h7B01IfCPqttpg1AySm8orjb9XCvyGrTm2wfWO+YE3DCTUPLa1X0HpqkfcZC56zMLglSl+KLDfCO5+w2ltzfbgLhxcEnpcExPMz16DJs5n5mc1whs7wsJNlY6fjYXdph39Cy1Uryzi0IhF3WOX+fmh0XxP6oA=
-  - secure: oEOUtFxC8SV/yZIbGUq+LkCqK5xlhIQZwFB0ijI/21fmYt+S5v+GJyJBXtqWowYDsTTa81gZWp5pX3jJBp3LN/nIy2fW/Drns4Fk//IluL/SOWZ4bqQyBiIDcfP8qW4C1iZlphzC3WBjmPSv09BUcIdDCfXXA2n0JntEqfCIYIM=
+  - secure: g0ukThfm7sDI2+cCbWD7au3IATYt1lt/jTu2fYX7ixpVN1aLAA6i5lXEwwSKDuzw7u3QOxvqTZG0RMErV2JBdqF7JQKpEVptCay/UiRInI2v4cG3wGxTzWWY+Nu48+NtBJDq+HO0u7kARKC0TXbOF4PJmdNECA4JDkWhHRV8wAY=
+  - secure: K3vR/6+TXHLgEvuJ4XoIBhdprA9LVh3UFaO5iMCTU1Aqomq/bTFCkp7HaHEFEvVetrWwirvRMo8QbyfYdbtMfV3jKRu1/rRid2WGNUTdJS63DkvdjVo5t8VBamAdDQGz14HUzp4AzI3K3WziUajgoIqPxXJ11bIlBvuDwSxYWoc=
 script: CLIENT=saucelabs:firefox npm test
