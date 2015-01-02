@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.10'
+before_script:
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
+- sleep 5
+- sudo sed -i 's/^127\.0\.0\.1.*$/127.0.0.1 localhost/' /etc/hosts
+env:
+  global:
+  - secure: 1Fnwe5KLUOCdL+h7B01IfCPqttpg1AySm8orjb9XCvyGrTm2wfWO+YE3DCTUPLa1X0HpqkfcZC56zMLglSl+KLDfCO5+w2ltzfbgLhxcEnpcExPMz16DJs5n5mc1whs7wsJNlY6fjYXdph39Cy1Uryzi0IhF3WOX+fmh0XxP6oA=
+  - secure: oEOUtFxC8SV/yZIbGUq+LkCqK5xlhIQZwFB0ijI/21fmYt+S5v+GJyJBXtqWowYDsTTa81gZWp5pX3jJBp3LN/nIy2fW/Drns4Fk//IluL/SOWZ4bqQyBiIDcfP8qW4C1iZlphzC3WBjmPSv09BUcIdDCfXXA2n0JntEqfCIYIM=
+script: CLIENT=saucelabs:firefox npm test
