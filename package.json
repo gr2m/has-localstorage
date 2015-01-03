@@ -1,6 +1,6 @@
 {
   "name": "has-localstorage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "returns true if localStorage is supported _and_ persistent",
   "main": "lib/has-localstorage.js",
   "directories": {
