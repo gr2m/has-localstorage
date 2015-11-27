@@ -8,7 +8,7 @@ returns `true` or `false` depending on whether localStorage is supported or not.
 Beware that some browsers like Safari do not support localStorage in private mode.
 
 
-## Downlaod or Installation
+## Download or Installation
 
 - Download [has-localstorage.js](https://raw.githubusercontent.com/gr2m/has-localstorage/master/lib/has-localstorage.js)
 - or: install via Bower: `bower install --save has-localstorage`
